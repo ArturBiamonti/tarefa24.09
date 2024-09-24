@@ -1,0 +1,21 @@
+ul {
+    list-style-position: inside; /* Mantém as bolinhas dentro do conteúdo */
+    padding: 0; /* Remove o espaçamento padrão da lista */
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex; /* Usamos flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o texto e o botão horizontalmente */
+    align-items: center; /* Alinha verticalmente os itens */
+  }
+  
+  button {
+    margin-left: 20px;
+  }
+  
+  * {
+    text-align: center;
+  }
+  
